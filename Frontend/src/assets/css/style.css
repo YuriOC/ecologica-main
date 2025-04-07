@@ -1,0 +1,178 @@
+body {
+    margin: 0 0 80px 0;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+:root {
+    --color1: #673C18;
+    --color2: #013b01;
+    --color3: #0B4024;
+    --color4: #ffffff;
+    --color5: #000000;
+    --color6: #B7BCB9;
+}
+
+.section {
+    padding: 30px;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 2px solid var(--color2);
+    padding: 2em;
+}
+
+.title a, .section a {
+    color: var(--color2);
+    text-decoration: underline solid;
+}
+
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.main-banner {
+    width: 100%;
+    height: 12em;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 2em 2.5em 2em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color5);
+    border-radius: 15%;
+    box-sizing: border-box;
+    padding: 5em 3em;
+    width: 240px;
+    height: 200px;
+}
+
+.cards-config h1,.cards-config p {
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+
+.cards-config p {
+    font-size: 20px;
+}
+
+.cards-config span {
+    width: 110px;
+    min-height: 70px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.arrow {
+    border-right: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+}
+
+.button-style {
+    border-radius: 50px;
+    background-color: var(--color3);
+    color: var(--color4);
+    font-family: "Lexend Deca", sans-serif;
+    border: 1px solid var(--color2);
+    line-height: 2;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.8em;
+}
+
+
+.img {
+    width: 100vw;  /* Ocupa toda a largura */
+    height: 60vh;  /* Define uma altura flexível */
+    background-size: cover;  /* Mantém qualidade preenchendo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+.img_1 {
+    width: 100vw;  /* Ocupa toda a largura */
+    height: 30vh;  /* Define uma altura flexível */
+    background-image: url("../../../public/uploads/9.png");
+    background-size: contain;  /* Mantém qualidade preenchendo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+.img_2 {
+    background-image: url("../../../public/uploads/2.png");
+}
+
+.img_3 {
+    background-image: url("../../../public/uploads/3.png");
+}
+
+.img_4 {
+    background-image: url("../../../public/uploads/4.png");
+}
+
+.img_5 {
+    background-image: url("../../../public/uploads/5.png");
+}
+
+.img_6 {
+    background-image: url("../../../public/uploads/6.png");
+}
+
+.img_7 {
+    background-image: url("../../../public/uploads/7.png");
+}
+
+.img_8 {
+    background-image: url("../../../public/uploads/banner1920.png");
+}
+
+.img_9 {
+    background-image: url("../../../public/uploads/9.png");
+}

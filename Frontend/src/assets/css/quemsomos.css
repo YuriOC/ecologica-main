@@ -1,0 +1,14 @@
+.responsive-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-top: solid 3px black;
+}
+
+.amigosbanner {
+    filter: contrast(0.5);
+}
+
+
+
