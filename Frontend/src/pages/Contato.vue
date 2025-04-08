@@ -45,6 +45,7 @@
             <label for="message">Descrição do seu pedido
             </label>
           </div>
+        </div>
           <!-- Botão de envio com estado de carregamento -->
           <div class="input">
             <button class="button-style input" type="submit" id="submit" :disabled="isLoading">
@@ -52,7 +53,6 @@
               <div v-else class="spinner"></div>
             </button>
           </div>
-        </div>
       </form>
       <!-- Exibição de status do envio do formulário -->
       <div style="text-align: center;" v-if="statusMessage" :class="statusClass">{{ statusMessage }}</div>

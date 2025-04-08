@@ -7,7 +7,7 @@
     </div>
 
     <!-- Seção de navegação e introdução -->
-    <div class="section">
+    <div id="parceria-section">
         <!-- Caminho de navegação (breadcrumb) -->
         <span><router-link to="/">Ecológica</router-link> > Parceria</span>
         <div id="id-column" class="column">
@@ -104,4 +104,11 @@ export default {
 
 <style scoped>
 /* Estilos específicos para o componente Parceria */
+#parceria-section {
+    padding: 30px 30px 30px 62px;
+}
+
+#parceria-section a{
+    color: var(--color3);
+}
 </style>

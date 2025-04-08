@@ -1,7 +1,6 @@
 
 
 @media (max-width: 500px) {
-
     .menu-logo,
     .menu-content {
         margin: 0;
@@ -29,28 +28,17 @@
         text-align: center;
     }
 
-    .partner_banners {
+    .partner_banners,
+    .home_banners {
         width: 100vw;
-        /* Ocupar toda a largura da tela */
         height: 100px;
-        /* Altura fixa */
         background-size: cover;
-        /* Cobre a área sem distorcer */
         background-position: center;
-        /* Centraliza a imagem */
         background-repeat: no-repeat;
     }
 
     .home_banners {
-        width: 100vw;
-        /* Ocupar toda a largura da tela */
         height: 150px;
-        /* Altura fixa */
-        background-size: cover;
-        /* Cobre a área sem distorcer */
-        background-position: center;
-        /* Centraliza a imagem */
-        background-repeat: no-repeat;
     }
 }
 
@@ -79,25 +67,10 @@
 
     .partner_banners {
         width: 100vw;
-        /* Ocupar toda a largura da tela */
         height: 200px;
-        /* Altura fixa */
         background-size: cover;
-        /* Cobre a área sem distorcer */
         background-position: center;
-        /* Centraliza a imagem */
         background-repeat: no-repeat;
-    }
-
-}
-
-@media (max-width: 768px) {
-    .img {
-        height: 40vh;
-    }
-
-    .img_1 {
-        height: 20vh;
     }
 }
 
@@ -212,14 +185,6 @@
         justify-content: center;
     }
 
-    .img {
-        height: 80vh;
-    }
-
-    .img_1 {
-        height: 40vh;
-    }
-
     .responsive-text {
         position: absolute;
         top: 50%;
@@ -231,34 +196,16 @@
         padding: 0 1rem;
         width: 10em;
     }
-
-
 }
 
 @media (min-width: 1200px) {
     .partner_banners {
-        width: 100vw;
-        /* Ocupar toda a largura da tela */
         height: 300px;
-        /* Altura fixa */
-        background-size: cover;
-        /* Cobre a área sem distorcer */
-        background-position: center;
-        /* Centraliza a imagem */
-        background-repeat: no-repeat;
     }
 }
 
 @media (min-width: 1700px) {
     .partner_banners {
-        width: 100vw;
-        /* Ocupar toda a largura da tela */
         height: 350px;
-        /* Altura fixa */
-        background-size: cover;
-        /* Cobre a área sem distorcer */
-        background-position: center;
-        /* Centraliza a imagem */
-        background-repeat: no-repeat;
     }
 }

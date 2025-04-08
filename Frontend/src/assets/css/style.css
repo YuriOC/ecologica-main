@@ -13,7 +13,7 @@ body {
 }
 
 .section {
-    padding: 30px;
+    padding: 45px 30px;
 }
 
 .column {
@@ -46,15 +46,6 @@ body {
     box-sizing: border-box;
 }
 
-.main-banner {
-    width: 100%;
-    height: 12em;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-}
 
 .text2 {
     display: flex;
@@ -127,52 +118,6 @@ body {
     padding: 0.8em;
 }
 
-
-.img {
-    width: 100vw;  /* Ocupa toda a largura */
-    height: 60vh;  /* Define uma altura flexível */
-    background-size: cover;  /* Mantém qualidade preenchendo */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat;
-}
-
-.img_1 {
-    width: 100vw;  /* Ocupa toda a largura */
-    height: 30vh;  /* Define uma altura flexível */
-    background-image: url("../../../public/uploads/9.png");
-    background-size: contain;  /* Mantém qualidade preenchendo */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat;
-}
-
-.img_2 {
-    background-image: url("../../../public/uploads/2.png");
-}
-
-.img_3 {
-    background-image: url("../../../public/uploads/3.png");
-}
-
-.img_4 {
-    background-image: url("../../../public/uploads/4.png");
-}
-
-.img_5 {
-    background-image: url("../../../public/uploads/5.png");
-}
-
-.img_6 {
-    background-image: url("../../../public/uploads/6.png");
-}
-
-.img_7 {
-    background-image: url("../../../public/uploads/7.png");
-}
-
 .img_8 {
     background-image: url("../../../public/uploads/banner1920.png");
-}
-
-.img_9 {
-    background-image: url("../../../public/uploads/9.png");
 }

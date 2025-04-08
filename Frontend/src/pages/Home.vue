@@ -1,12 +1,12 @@
 <template>
     <!-- Seção do banner principal com texto e imagem -->
     <div>
-        <Banner text="Ecológica - cuidamos dos seus resíduos com eficiência e responsabilidade"
+        <Banner text="Ecológica" subtitle="Cuidamos dos seus resíduos com eficiência e responsabilidade"
             imageSrc="../../public/uploads/home1.png" />
     </div>
 
     <!-- Seção com título e descrição sobre a empresa -->
-    <div class="section">
+    <div id="home-section">
         <div id="id-column" class="column">
             <div class="title">
                 <h1>Estamos com você em todas as etapas!</h1>
@@ -191,5 +191,13 @@ export default {
 
 .card-text p {
     margin-top: 10px;
+}
+
+#home-section {
+    padding: 30px 30px 30px 62px;
+}
+
+#home-section a {
+    color: var(--color3);
 }
 </style>

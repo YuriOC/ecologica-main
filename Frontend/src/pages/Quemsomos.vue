@@ -6,7 +6,7 @@
     </div>
 
     <!-- Seção de navegação e introdução -->
-    <div class="section">
+    <div id="quemsomos-section">
         <span><router-link to="/">Ecológica</router-link> > Quem somos</span>
         <div id="id-column" class="column">
             <div class="title">
@@ -127,10 +127,13 @@ export default {
 
 <style scoped>
 /* Estilo para a seção principal */
-.section {
-    padding: 5em 30px;
+#quemsomos-section {
+    padding: 5em 30px 30px 62px;
 }
 
+#quemsomos-section a{
+    color: var(--color3);
+}
 /* Estilo para a seção de segmentos atendidos */
 .somos_lojas {
     background-color: var(--color3);
