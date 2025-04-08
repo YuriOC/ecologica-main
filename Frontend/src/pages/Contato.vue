@@ -132,7 +132,7 @@ export default {
     try {
     console.log('Enviando dados:', this.formData);
     // Envia os dados para o backend PHP
-    const response = await fetch('http://localhost/ecologica/index.php', {
+    const response = await fetch('http://localhost/ecologica/api/send_email.php', {
       method: 'POST',
       headers: {
       'Content-Type': 'application/json'
