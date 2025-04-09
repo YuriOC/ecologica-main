@@ -1,18 +1,18 @@
-# 🌱 Website Ecológica
+# 🌱 Ecológica Website
 
-> Site para a empresa Ecológica, totalmente responsivo, com função de fornecer informações sobre a empresa e possibilitar o contato através de links ou envio de emails. Dividido em componentes com Vue.js e função de envio de emails com PHP.
-
----
-
-## 🚀 Funcionalidades
-
-- ✅ Responsivo para desktop e mobile
-- 🔐 Formulário com envio por e-mail
-- 📁 Organização de pastas por componentes reutilizáveis
+> Website for the Ecológica company, fully responsive, designed to provide company information and enable contact through links or email submission. Built with Vue.js components and email sending functionality using PHP.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🚀 Features
+
+- ✅ Responsive for desktop and mobile
+- 🔐 Contact form with email sending
+- 📁 Folder organization with reusable components
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
@@ -22,34 +22,33 @@
 
 ---
 
-## 🧪 Como rodar localmente (Frontend)
+## 🧪 How to Run Locally (Frontend)
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/YuriOC/site_ecologica.git
 
-# Acesse a pasta
+# Enter the folder
 cd site_ecologica/Frontend
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Rode o servidor (Frontend)
-npm run dev  
+# Run the frontend server
+npm run dev   
 ```
-## ⚙ Configure o Backend para envio de e-mails
+## ⚙ Set Up the Backend for Email Sending
 
-> Através do formulário preenchido na página Contatos do site, as informações são enviadas e recebidas através de emails escolhidos pela empresa.
-
+> When a user submits the contact form, the information is sent and received via email configured by the company.
 ---
 
-1. Instale o XAMPP (ou outro servidor local com suporte a PHP).
+1. Install XAMPP (or another local server with PHP support).
 
-2. Crie uma pasta no diretório htdocs do XAMPP (ex: C:\xampp\htdocs\ecologica-backend).
+2. Create a folder inside the htdocs directory of XAMPP (e.g.: C:\xampp\htdocs\ecologica-backend).
 
-3. Copie os arquivos da pasta backend do projeto para essa nova pasta.
+3. Copy the contents of the backend folder from the project into this new folder.
 
-4. Crie um arquivo .env na pasta config com o seguinte conteúdo:
+4. Create a .env file inside the config folder with the following content:
 ```
 SMTP_HOST=smtp.gmail.com (Se for gmail, ou smtp.office365.com se for outlook)
 
@@ -67,28 +66,44 @@ SMTP_FROM_NAME=Nome do remetente (Para evitar span e melhor organização)
 
 RECEIVER_EMAIL=seuemail@gmail.com (o email que receberá a mensagem)
 
-⚠️ Importante:
+SMTP_HOST=smtp.gmail.com (Use smtp.office365.com if you're using Outlook)
 
-! Se deseja compartilhar esse arquivo sem comprometer informações sensíveis, use o .gitignore para proteger o arquivo .env
+SMTP_USER=youremail@gmail.com (The email that will send the message)
 
-! Use uma senha de app do Gmail para SMTP, e nunca compartilhe esse arquivo .env publicamente.
+SMTP_PASS=your_app_password (Your app-specific password *Not your email login password!*)
 
-! Substitua os valores pelos seus dados reais.
+SMTP_PORT=587 
 
-! Qualquer mudança deverá ser feita na pasta do XAMPP.
+SMTP_ENCRYPTION=tls
+
+SMTP_FROM_EMAIL=youremail@gmail.com (The sender email)
+
+SMTP_FROM_NAME=Sender Name (To avoid spam and for better organization)
+
+RECEIVER_EMAIL=youremail@gmail.com (The email that will receive the message)
 ```
-5. Inicie o Apache no XAMPP e envie o formulário.
+### ⚠️ **WARNING** ⚠️
+
+! If you're sharing this project, use `.gitignore` to protect the `.env` file from being tracked.
+
+! Use an app-specific password for Gmail SMTP, and **NEVER** share your `.env` file publicly.
+
+! Replace all placeholder values with your actual data.
+
+! Any changes should be made inside the XAMPP folder.
 
 ---
 
-## 📫 Contato
+5. Start Apache in XAMPP and submit the contact form.
+
+## 📫 Contact
 
 GitHub: [@YuriOC
 ](https://github.com/YuriOC)
 
 E-mail: yuri.ocardos@gmail.com
 
-## 📝 Licença
+## 📝 License
 
 MIT License
 
