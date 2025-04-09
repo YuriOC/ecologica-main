@@ -22,14 +22,14 @@
 
 ---
 
-## 🧪 Como rodar localmente
+## 🧪 Como rodar localmente (Frontend)
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/YuriOC/site_ecologica.git
 
 # Acesse a pasta
-cd seu-repo
+cd site_ecologica/Frontend
 
 # Instale as dependências
 npm install
@@ -38,6 +38,10 @@ npm install
 npm run dev  
 ```
 ## ⚙ Configure o Backend para envio de e-mails
+
+> Através do formulário preenchido na página Contatos do site, as informações são enviadas e recebidas através de emails escolhidos pela empresa.
+
+---
 
 1. Instale o XAMPP (ou outro servidor local com suporte a PHP).
 
@@ -65,17 +69,17 @@ RECEIVER_EMAIL=seuemail@gmail.com (o email que receberá a mensagem)
 
 ⚠️ Importante:
 
+! Se deseja compartilhar esse arquivo sem comprometer informações sensíveis, use o .gitignore para proteger o arquivo .env
+
 ! Use uma senha de app do Gmail para SMTP, e nunca compartilhe esse arquivo .env publicamente.
 
-! Certifique-se que seu arquivo .env está dentro do .gitignore antes de compartilhar publicamente.
-
 ! Substitua os valores pelos seus dados reais.
+
+! Qualquer mudança deverá ser feita na pasta do XAMPP.
 ```
 5. Inicie o Apache no XAMPP e envie o formulário.
 
 ---
-
-
 
 ## 📫 Contato
 
