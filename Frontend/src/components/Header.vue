@@ -3,16 +3,16 @@
             <div class="menu-logo"><router-link to="/"><img
                         src="../../public/uploads/logoperfeita-removebg-preview.png"></router-link></div>
             <div class="menu-pages">
-                <div class="menu-pages-item">
+                <div :class="['menu-pages-item', { active: $route.path === '/' }]">
                     <router-link to="/">Home</router-link>
                 </div>
-                <div class="menu-pages-item">
+                <div :class="['menu-pages-item', { active: $route.path === '/quemsomos' }]">
                     <router-link to="/quemsomos">Quem Somos</router-link>
                 </div>
-                <div class="menu-pages-item">
+                <div :class="['menu-pages-item', { active: $route.path === '/parceria' }]">
                     <router-link to="/parceria">Parceria</router-link>
                 </div>
-                <div class="menu-pages-item">
+                <div :class="['menu-pages-item', { active: $route.path === '/contato' }]">
                     <router-link to="/contato">Contato</router-link>
                 </div>
             </div>
@@ -24,6 +24,7 @@
     export default {
         name: 'Header',
     };
+
     </script>
 
     <style scoped>
@@ -133,6 +134,10 @@
         }
 
         .menu-pages-item a:hover::after {
+            transform: scaleX(1);
+        }
+
+        .active a::after {
             transform: scaleX(1);
         }
     }
