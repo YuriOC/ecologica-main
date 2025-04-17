@@ -3,7 +3,7 @@
     <div>
         <Banner text="Seja nosso parceiro"
             subtitle="Enquanto você cuida dos seus clientes, nós cuidamos do seu descarte."
-            imageSrc="../../public/uploads/5.png" />
+            imageSrc="/uploads/5.png" />
     </div>
 
     <!-- Seção de navegação e introdução -->
@@ -36,7 +36,7 @@
     <div class="partner-cards">
         <!-- Primeiro cartão: Sincronia -->
         <div class="partner-img">
-            <img src="../../public/uploads/6.png">
+            <img src="/uploads/6.png">
         </div>
         <div class="partner-text">
             <h1>SINCRONIA</h1>
@@ -47,7 +47,7 @@
 
         <!-- Segundo cartão: Soluções Humanas -->
         <div class="partner-img">
-            <img src="../../public/uploads/7.png">
+            <img src="/uploads/7.png">
         </div>
         <div class="partner-text">
             <h1>SOLUÇÕES HUMANAS</h1>
@@ -58,7 +58,7 @@
 
         <!-- Terceiro cartão: Ideias Inovadoras -->
         <div class="partner-img">
-            <img src="../../public/uploads/8.png">
+            <img src="/uploads/8.png">
         </div>
         <div class="partner-text">
             <h1>IDEIAS INOVADORAS</h1>
@@ -78,12 +78,12 @@
         </div>
         <!-- Logos dos parceiros -->
         <div class="partner-logos">
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
-            <div><img src="../../public/uploads/caminhao.PNG"></div>
+            <div><img src="/uploads/caminhao.png"></div>
+            <div><img src="/uploads/caminhao.png"></div>
+            <div><img src="/uploads/caminhao.png"></div>
+            <div><img src="/uploads/caminhao.png"></div>
+            <div><img src="/uploads/caminhao.png"></div>
+            <div><img src="/uploads/caminhao.png"></div>
         </div>
         <!-- Botão para solicitar orçamento -->
         <div class="partner-logos-button-config"><router-link to="/contato" class="button-style">Solicite

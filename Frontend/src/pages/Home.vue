@@ -2,7 +2,7 @@
     <!-- Seção do banner principal com texto e imagem -->
     <div>
         <Banner text="Ecológica" subtitle="Cuidamos dos seus resíduos com eficiência e responsabilidade"
-            imageSrc="../../public/uploads/home1.png" />
+            imageSrc="/uploads/home1.png" />
     </div>
 
     <!-- Seção com título e descrição sobre a empresa -->
@@ -32,7 +32,7 @@
 
     <!-- Seção com uma imagem destacada -->
     <div class="card_2">
-        <img src="../../public/uploads/9.png">
+        <img src="/uploads/9.png">
     </div>
 
     <!-- Seção destacando os diferenciais da empresa -->
@@ -48,32 +48,32 @@
             <div class="cards">
                 <!-- Cartões com informações sobre os números e conquistas da empresa -->
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/caminhao.PNG);"></span>
+                    <span style="background-image: url(/uploads/caminhao.png);"></span>
                     <h1>+20k</h1>
                     <p>coletas realizadas</p>
                 </div>
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/icon3.PNG);"></span>
+                    <span style="background-image: url(/uploads/icon3.png);"></span>
                     <h1>+15</h1>
                     <p>anos de atuação</p>
                 </div>
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/icon4.PNG);"></span>
+                    <span style="background-image: url(/uploads/icon4.png);"></span>
                     <h1>+30</h1>
                     <p>municípios do Rio</p>
                 </div>
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/icon6.PNG)"></span>
+                    <span style="background-image: url(/uploads/icon6.png)"></span>
                     <h1>+1.5k</h1>
                     <p>de parceiros</p>
                 </div>
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/icon2.PNG)"></span>
+                    <span style="background-image: url(/uploads/icon2.png)"></span>
                     <h1>100%</h1>
                     <p>das licenças do RJ</p>
                 </div>
                 <div class="cards-config">
-                    <span style="background-image: url(../../public/uploads/icon5.PNG)"></span>
+                    <span style="background-image: url(/uploads/icon5.png)"></span>
                     <h1>+60k</h1>
                     <p>toneladas ao ano</p>
                 </div>
@@ -83,8 +83,8 @@
 
     <!-- Seção com imagens adicionais -->
     <div class="card">
-        <img src="../../public/uploads/pag3-2.png">
-        <img src="../../public/uploads/pag3.png">
+        <img src="/uploads/pag3-2.png">
+        <img src="/uploads/pag3.png">
         <!-- Comentário sobre o card-text (desativado no momento) -->
         <!--
         <div class="card-text">
@@ -104,18 +104,18 @@
             <div id="home-cards" class="home3-cards">
                 <!-- Etapas do processo com ícones e descrições -->
                 <div class="home3-cards-config">
-                    <img src="../../public/uploads/icon3.PNG">
+                    <img src="/uploads/icon3.png">
                     <p>Informamos as datas de coleta com antecedência</p>
                 </div>
                 <div class="arrow">
                 </div>
                 <div class="home3-cards-config">
-                    <img src="../../public/uploads/caminhao.PNG">
+                    <img src="/uploads/caminhao.png">
                     <p>Coletamos e garantimos a destinação final adequada</p>
                 </div>
                 <div class="arrow"></div>
                 <div class="home3-cards-config">
-                    <img src="../../public/uploads/icon2.PNG">
+                    <img src="/uploads/icon2.png">
                     <p>Fornecemos os documentos referente ao transporte</p>
                 </div>
             </div>

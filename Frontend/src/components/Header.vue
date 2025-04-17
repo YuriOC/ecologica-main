@@ -1,7 +1,7 @@
     <template>
         <div class="menu">
             <div class="menu-logo"><router-link to="/"><img
-                        src="../../public/uploads/logoperfeita-removebg-preview.png"></router-link></div>
+                        src="/uploads/logoperfeita-removebg-preview.png"></router-link></div>
             <div class="menu-pages">
                 <div :class="['menu-pages-item', { active: $route.path === '/' }]">
                     <router-link to="/">Home</router-link>

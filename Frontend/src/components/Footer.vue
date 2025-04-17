@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="footer-logo">
-            <img src="../../public/uploads/logoperfeita-branco.png">
+            <img src="/uploads/logoperfeita-branco.png">
         </div>
     </div>
 </template>

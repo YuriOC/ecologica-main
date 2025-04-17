@@ -60,19 +60,19 @@
     <!-- Seção de cartões com informações adicionais -->
     <div class="contact-row">
       <div class="contact-cards">
-        <img src="../../public/uploads/icon4.PNG">
+        <img src="/uploads/icon4.png">
         <h3>+30</h3>
         <p>Municipios do RJ</p>
       </div>
       <div class="vertical-bar"></div>
       <div class="contact-cards">
-        <img src="../../public/uploads/icon3.PNG">
+        <img src="/uploads/icon3.png">
         <h3>+15</h3>
         <p>Anos de atuação</p>
       </div>
       <div class="vertical-bar"></div>
       <div class="contact-cards">
-        <img src="../../public/uploads/caminhao.PNG">
+        <img src="/uploads/caminhao.png">
         <h3>+10k</h3>
         <p>Coletas realizadas</p>
       </div>

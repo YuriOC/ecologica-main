@@ -2,7 +2,7 @@
     <!-- Banner principal com título, subtítulo e imagem -->
     <div>
         <Banner text="Sobre a Ecológica" subtitle="com 15 anos de experiência, descubra o que nos faz continuar aqui"
-            imageSrc="../../public/uploads/quemsomos1.png" />
+            imageSrc="/uploads/quemsomos1.png" />
     </div>
 
     <!-- Seção de navegação e introdução -->
@@ -29,22 +29,22 @@
         <div class="somos_lojas_config">
             <!-- Segmento: Clínicas e Consultórios -->
             <div class="somos_lojas_elements">
-                <img src="../../public/uploads/clinicas2.png" alt="">
+                <img src="/uploads/clinicas2.png" alt="">
                 <span>Clínicas e Consultórios</span>
             </div>
             <!-- Segmento: Farmácias e Distribuidoras -->
             <div class="somos_lojas_elements">
-                <img src="../../public/uploads/farmacia2.png" alt="">
+                <img src="/uploads/farmacia2.png" alt="">
                 <span>Farmácias e Distribuidoras</span>
             </div>
             <!-- Segmento: Salões de Beleza -->
             <div class="somos_lojas_elements">
-                <img src="../../public/uploads/saloes2.png" alt="">
+                <img src="/uploads/saloes2.png" alt="">
                 <span>Salões de Beleza</span>
             </div>
             <!-- Segmento: Veterinárias -->
             <div class="somos_lojas_elements">
-                <img src="../../public/uploads/veterinaria2.png" alt="">
+                <img src="/uploads/veterinaria2.png" alt="">
                 <span>Veterinárias</span>
             </div>
         </div>
@@ -63,17 +63,17 @@
             <div class="cards">
                 <!-- Licença: Resíduos infectantes -->
                 <div class="cards-config">
-                    <img src="../../public/uploads/SímboloResiduos.PNG">
+                    <img src="/uploads/residuos1.png">
                     <p>Resíduos infectantes</p>
                 </div>
                 <!-- Licença: Resíduos Químicos -->
                 <div class="cards-config">
-                    <img src="../../public/uploads/SímboloResiduos2.PNG">
+                    <img src="/uploads/residuos2.png">
                     <p>Resíduos Químicos</p>
                 </div>
                 <!-- Licença: Resíduos Perfurocortantes -->
                 <div class="cards-config">
-                    <img src="../../public/uploads/SímboloResiduos.PNG">
+                    <img src="/uploads/residuos1.png">
                     <p>Resíduos Perfurocortantes</p>
                 </div>
             </div>
