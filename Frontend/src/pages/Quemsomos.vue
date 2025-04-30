@@ -128,7 +128,7 @@ export default {
 <style scoped>
 /* Estilo para a seção principal */
 #quemsomos-section {
-    padding: 5em 30px 30px 62px;
+    padding: 60px 30px;
 }
 
 #quemsomos-section a{
@@ -170,5 +170,15 @@ export default {
     font-size: 1.2em;
     text-align: center;
     padding: 0.5em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 2px solid var(--color2);
+    padding: 3.5em;
 }
 </style>

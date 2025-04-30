@@ -89,7 +89,7 @@
     <div class="contact-text">
       <h2>Por que escolher a Ecológica?</h2>
       <p>Nossa missão é construir relações de confiança com todos os nossos clientes. Trabalhamos lado a lado para
-        oferecer serviços personalizados que atendam às necessidades específicas de cada coleta</p>
+        oferecer serviços personalizados que atendam às necessidades específicas de cada coleta.</p>
     </div>
   </div>
 </template>
@@ -132,7 +132,7 @@ export default {
     try {
     console.log('Enviando dados:', this.formData);
     // Envia os dados para o backend PHP
-    const response = await fetch('http://localhost/ecologica/api/send_email.php', {
+    const response = await fetch('/backend/api/send_email.php', {
       method: 'POST',
       headers: {
       'Content-Type': 'application/json'

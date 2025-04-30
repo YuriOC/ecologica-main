@@ -84,16 +84,6 @@
         max-width: 1000px;
     }
 
-    #id-column {
-        flex-direction: row;
-        font-size: 120%;
-    }
-
-    #id-column>div:first-child {
-        border-bottom: none;
-        border-right: 2px solid var(--color2);
-    }
-
     .form-div {
         gap: 15px;
         display: flex;
@@ -139,6 +129,17 @@
     }
 }
 
+@media (min-width: 900px) {
+    #id-column {
+        flex-direction: row;
+        font-size: 120%;
+    }
+
+    #id-column>div:first-child {
+        border-bottom: none;
+        border-right: 2px solid var(--color2);
+    }
+}
 @media (min-width: 1000px) {
     .cards {
         gap: 5em;
@@ -148,11 +149,6 @@
         max-width: 1000px;
         margin: 0 auto 2.5em;
         font-size: 20px;
-    }
-
-    #id-column .text,
-    #id-column .title {
-        padding: 4em;
     }
 
     #home-cards {

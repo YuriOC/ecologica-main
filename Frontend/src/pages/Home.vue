@@ -194,10 +194,20 @@ export default {
 }
 
 #home-section {
-    padding: 30px 30px 30px 62px;
+    padding: 60px 30px;
 }
 
 #home-section a {
     color: var(--color3);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 2px solid var(--color2);
+    padding: 3.5em;
 }
 </style>

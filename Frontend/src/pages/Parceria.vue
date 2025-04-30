@@ -105,10 +105,29 @@ export default {
 <style scoped>
 /* Estilos específicos para o componente Parceria */
 #parceria-section {
-    padding: 30px 30px 30px 62px;
+    padding: 60px 30px;
 }
 
 #parceria-section a{
     color: var(--color3);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 2px solid var(--color2);
+    padding: 3.5em;
+}
+
+.text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 4em 2em;
+    box-sizing: border-box;
 }
 </style>

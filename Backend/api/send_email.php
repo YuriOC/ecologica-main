@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 // Headers CORS e JSON
-header('Access-Control-Allow-Origin: http://localhost:5173');
+header('Access-Control-Allow-Origin: https://ecologicacoletarj.com.br/');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 header('Content-Type: application/json');
@@ -196,7 +196,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         error_log("Configurando destinatários");
         error_log("Valor de SMTP_USER (getenv): " . $_ENV['SMTP_USER']);
         error_log("Valor de SMTP_FROM_NAME (getenv): " . $_ENV['SMTP_FROM_NAME']);
-        $mail->setFrom($_ENV['SMTP_USER'], $_ENV['SMTP_FROM_NAME']); // Substituído por variável de ambiente
+        $mail->setFrom($_ENV['SMTP_FROM_EMAIL'], $_ENV['SMTP_FROM_NAME']); // Substituído por variável de ambiente
         $mail->addAddress($_ENV['RECEIVER_EMAIL']); // Substituído por variável de ambiente
         $mail->addReplyTo($data['email'], $data['name']);
         error_log("Destinatários configurados");
